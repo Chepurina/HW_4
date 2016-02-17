@@ -1,0 +1,250 @@
+body {
+	background: url('../img/fon.png');
+	background-repeat: repeat-x;
+	font-family: 'Tahoma';
+	font-size: 12px;
+	color: white;
+}
+/*Footter*/
+.main p{
+	text-align: center;
+	padding-top: 10px;
+	width: 1368px;
+	height: 768px;
+}
+/*Page*/
+.page {
+	background: white;
+	margin: 0 auto;
+	left: 100px;
+	width: 1000px;
+	height: 100%;
+	box-shadow: -1px 5px 10px 0px rgba(0,0,0,0.75);
+	margin-bottom: 2px;
+}
+/*Header*/
+.header {
+	width: 1000px;
+	height: 177px;
+	background: white;
+}
+/*Text our contucts*/
+.logo-text2 {
+	color: #138aa7;
+	font-size: 12px;
+	padding-top: 10px;
+	margin-right: 32px;
+	float: right;
+	line-height: 1.5;
+}
+
+.logo-text2 p:first-child{
+	font-weight: 600;
+}
+/*Text adove logo*/
+.logo-text {
+	color: #138aa7;
+	font-size: 12px;
+	padding-left: 75px;
+	float: left;
+	height: 100%;
+	padding-top: 113px;
+	box-sizing: border-box;
+	background: url(../img/logo.png) no-repeat bottom center;
+	padding-right: 88px;
+	margin-left: 30px;
+}
+
+.header-box2 {
+	float: right;
+	width: 400px;
+}
+
+ul.header-box3 {
+	padding-top: 28px;
+	height: 68px;
+	float: right;
+	clear: both;
+	width: 100%;
+	margin-right: 20px;
+}
+
+ul.header-box3 li {
+	float: right;
+	text-align: center;
+	color: #138aa7;
+	font-size: 10px;
+}
+
+.header-box3 li p {
+	color: #138aa7;
+	display: block;
+	width: 55px;
+	padding-top: 45px
+}
+
+/*logos countries*/
+.header-box3 .india p {
+	background: url(../img/countries/India.png) no-repeat top center;
+}
+
+.header-box3 .nepal p {
+	background: url(../img/countries/nepal.png) no-repeat top center;
+}
+
+
+.header-box3 .tibet p {
+	background: url(../img/countries/tibet.png) no-repeat top center;
+}
+
+.header-box3 .butan p {
+	background: url(../img/countries/butan.png) no-repeat top center;
+}
+
+.header-box3 .shriLanka p {
+	background: url(../img/countries/ShriLanka.png) no-repeat top center;
+}
+
+.header-box3 .maldivi p {
+	background: url(../img/countries/maldivi.png) no-repeat top center;
+}
+
+/*photo*/
+.photo {
+	width: 1000px;
+	height: 237px;
+	border-top: 1px solid #138aa7;
+	border-bottom: 1px solid #138aa7;
+}
+
+/*horizantal menu*/
+.menu {
+	position: relative;
+	margin-top: 1px;
+	width: 1000px;
+	height: 29px;
+	background: #333333;
+	border-bottom: 1px solid black;
+	box-shadow: 0 2px 6px #000000;
+}
+
+.menu .item {
+	position: relative;
+	line-height: 29px;
+	font-size: 14px;
+	float: left;
+	padding-left: 68px;
+	color: white;
+	text-decoration: none;
+}
+/*display submenu*/
+.menu li:hover .podmenu {
+	display: block;
+}
+/*submenu invisible*/
+.podmenu {
+	position: absolute;
+	z-index: 1;
+	display: none;
+	list-style: none;
+	font-size: 14px;
+	width: 100%;
+	box-sizing: border-box;
+}
+/*drow black line onthe top of submenu*/
+.podmenu li:first-child{
+	border-top: 1px solid black;
+}
+
+.podmenu li {
+	/*border: 1px solid #333333;*/
+	padding: 4px 0 4px 5px;
+	width: 98px;
+	line-height: 20px;
+	border:none;
+	color: white;
+	background: #333333;
+	box-shadow: 0 2px 6px #000000;
+}
+/*effect select item submenu*/
+.podmenu li:hover {
+	background: grey;
+}
+/*TRIANGLES*/
+.symbol1::after{
+	content: ''; 
+	position: absolute;
+	left: 277px; 
+	top: 13px;
+	border: 3px solid transparent; 
+	border-top: 6px solid #fff; 
+}
+	
+.symbol2::after{
+	content: ''; 
+	position: absolute;
+	left: 385px; 
+	top: 13px;
+	border: 3px solid transparent; 
+	border-top: 6px solid #fff; 
+}
+
+.symbol3::after{
+	content: ''; 
+	position: absolute;
+	left: 525px; 
+	top: 13px;
+	border: 3px solid transparent; 
+	border-top: 6px solid #fff;  
+}
+
+/*Colomns*/
+.content {
+	width: 1000px;
+	overflow: hidden;
+	font-size:14px;
+	color: black;
+	line-height: 1.8;
+}
+
+.left-colomn {
+	width: 209px;
+	border: 1px solid #c7cacf;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
+	text-align: center;
+}
+
+.left-colomn p:first-child{
+	font-weight: 600;
+	color: #424c43;
+	font-size:18px;
+	/*padding-top: -3px;*/
+}
+
+.right-colomn p:first-child{
+	font-weight: 600;
+	color: #424c43;
+	font-size:18px;
+}
+.centr-colomn {
+	width: 582px;
+	float: left;
+	background: white;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
+}
+
+.right-colomn{
+	width: 209px;
+	border: 1px solid #c7cacf;
+	float: right;
+	background: #edeef0;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
+	text-align: center;
+}
+
+ 
